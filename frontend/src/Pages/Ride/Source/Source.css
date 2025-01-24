@@ -1,0 +1,108 @@
+/* Parent container for centering elements */
+.container {
+    display: flex;
+    flex-direction: row-reverse; /* Reverse the order of elements */
+    align-items: center; /* Vertically align items */
+    justify-content: space-between; /* Space between button and map */
+    height: 100vh; /* Full viewport height */
+    padding: 20px;
+    gap: 20px; /* Add space between the map and button */
+  }
+  
+  /* Map container wrapper */
+  .map-wrapper {
+    flex-grow: 1; /* Make the map container take the remaining space */
+    height: 80%; /* Adjust height of the map */
+    width: 60%; /* Control the map width */
+    position: relative; /* Respect the container's layout */
+  }
+  
+  /* Main button styling */
+  .floating-button-active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px; /* Button width */
+    height: 50px; /* Button height */
+    background-color: #0078ff; /* Button background color */
+    color: white;
+    font-family: "Poppins", sans-serif; /* Font family */
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .floating-button-active:hover {
+    background-color: #005bb5;
+    transform: scale(1.05);
+  }
+
+
+  .floating-button-NotActive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px; /* Button width */
+    height: 50px; /* Button height */
+    background-color: grey; /* Button background color */
+    color: white;
+    font-family: "Poppins", sans-serif; /* Font family */
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .floating-button-NotActive:hover {
+    background-color: #005bb5;
+    transform: scale(1.05);
+  }
+  
+  /* Geocoder input styling */
+  .leaflet-control-geocoder-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif; /* Consistent font */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  .leaflet-control-geocoder-form input:focus {
+    border-color: #0078ff;
+    box-shadow: 0 0 6px rgba(0, 120, 255, 0.3);
+  }
+  
+
+
+  /* Submit button styling */
+.submit-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px; /* Button width */
+    height: 50px; /* Button height */
+    background-color: red; /* Button background color */
+    color: white;
+    font-family: "Poppins", sans-serif; /* Font family */
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 5;
+  }
+  
+  .submit-button:hover {
+    background-color: darkred; /* Slightly darker red on hover */
+    transform: scale(1.05);
+  }
+  

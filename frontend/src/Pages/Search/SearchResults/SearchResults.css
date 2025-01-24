@@ -1,0 +1,68 @@
+.search-results {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .rides-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .ride-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 300px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .ride-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .driver-info {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .driver-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .driver-username {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .ride-details p {
+    margin: 5px 0;
+  }
+  
+  .ride-details strong {
+    color: #555;
+  }
+  
+  /* Remove default text decoration and color for links */
+.ride-link {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Inherits the color of parent element */
+  }
+  
+  /* Optional: Add hover effect or any custom styling */
+  .ride-link:hover {
+    cursor: pointer; /* Changes the cursor to indicate clickable links */
+    opacity: 0.9; /* Slight hover effect */
+  }
+  

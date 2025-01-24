@@ -1,0 +1,77 @@
+/* DateAndTime.css */
+.date-time-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  .date-time-container h2 {
+    font-size: 1.5rem;
+    color: #34495e;
+    margin-bottom: 20px;
+  }
+  
+  .date-time-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dfe6e9;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #34495e;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .date-time-container input:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+    outline: none;
+  }
+  
+  .date-time-container button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .date-time-container button:hover {
+    background-color: #2980b9;
+    box-shadow: 0 4px 6px rgba(52, 152, 219, 0.3);
+  }
+  
+  .date-time-container button:active {
+    background-color: #1f648b;
+  }
+  
+  .date-time-container input::placeholder {
+    color: #bdc3c7;
+  }
+  
+  @media (max-width: 600px) {
+    .date-time-container {
+      margin: 20px;
+      padding: 15px;
+    }
+  
+    .date-time-container h2 {
+      font-size: 1.25rem;
+    }
+  
+    .date-time-container button {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  }
+  

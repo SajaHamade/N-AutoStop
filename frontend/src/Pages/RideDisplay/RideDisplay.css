@@ -1,0 +1,146 @@
+.ride-display-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .driver-sidebar {
+    width: 25%;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .driver-sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .driver-image {
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .driver-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .driver-info {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .ride-content {
+    flex: 1;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ride-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .icon-row {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    margin-left: 20%;
+  }
+  
+  .icon-row span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .ride-map {
+    margin-top: 20px;
+  }
+  
+  .ride-map h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+
+  /* Style for the Request Ride button */
+.request-ride-button {
+    background-color:  #3e8e41;;/* Green background */
+    color: white; /* White text */
+    font-size: 18px; /* Font size */
+    padding: 10px 20px; /* Padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    width: 80%;
+    margin-top: 2%;
+  }
+  
+  .request-ride-button:hover {
+    background-color:  #007bff ; /* Darker green on hover */
+  }
+  
+  .request-ride-button:active {
+    background-color: #007bff /* Even darker green when clicked */
+  }
+  
+  .request-ride-button:focus {
+    outline: none; /* Remove outline on focus */
+  }
+  
+
+  .submit-request-container {
+    background-color: #f9f9f9; /* Light gray background */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Inner spacing */
+    max-width: 400px; /* Set a maximum width */
+    margin: 20px auto; /* Center the container */
+    text-align: center; /* Center text */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    font-family: Arial, sans-serif; /* Clean font */
+  }
+  
+  .submit-request-container p {
+    font-size: 18px; /* Slightly larger font */
+    color: #333; /* Dark text for contrast */
+    margin-bottom: 20px; /* Space below text */
+  }
+  
+  .submit-request-button {
+    background-color: #007bff; /* Primary blue */
+    color: #fff; /* White text */
+    border: none; /* No border */
+    border-radius: 6px; /* Rounded button */
+    padding: 10px 20px; /* Button size */
+    font-size: 16px; /* Text size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+  }
+  
+  .submit-request-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px); /* Subtle lift effect */
+  }
+  
+  .submit-request-button:active {
+    background-color: #004085; /* Even darker on click */
+    transform: translateY(0); /* Reset lift */
+  }
+  

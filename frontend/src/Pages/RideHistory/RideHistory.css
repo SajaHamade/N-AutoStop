@@ -1,0 +1,102 @@
+.ride-history-container {
+    padding: 20px;
+    background-color: #f4f7fc;
+  }
+  
+  .page-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .rides-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  .ride-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ddd;
+  }
+  
+  .ride-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .ride-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .ride-info p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 12px;
+  }
+  
+  .ride-info p strong {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .feedback-section {
+    margin-top: 20px;
+  }
+  
+  .feedback-section label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .feedback-section select, .feedback-section textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-top: 8px;
+    font-size: 1rem;
+  }
+  
+  .feedback-section button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 12px;
+    cursor: pointer;
+  }
+  
+  .feedback-section button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .page-title {
+      font-size: 2rem;
+    }
+  
+    .ride-card {
+      padding: 15px;
+    }
+  
+    .ride-title {
+      font-size: 1.2rem;
+    }
+  
+    .ride-info p {
+      font-size: 0.95rem;
+    }
+  }
+  
