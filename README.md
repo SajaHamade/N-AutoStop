@@ -32,7 +32,7 @@ This project leverages the following technologies and libraries:
    git clone https://github.com/SajaHamade/N-AutoStop.git
 
 2:Navigate to the project directory:
-cd N-AutoStop
+cd N-Auto Stop
 
 3:Install dependencies for the backend: 
 cd backend
